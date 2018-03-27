@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Apple - iPhone 6 Plus </title>
+<link rel="shortcut icon" href="img/apple2.png" />
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-
+
+content/courses/ltp/css/bootstrap.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.jumbotron{
+margin-top:10px;
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:460px;
+color:black;
+background-color:#ffffff;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+font-family:PT Sans;
+font-size:60px;
+text-shadow: 2px 3px 2px #5F5F5F;
+color:#000000;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+postion:relative;
+z-index:1000;
+}
+.col-md-6{
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+padding-left:-20px;
+}
+hr{
+color:black;
+}
+.desc-evidentiere1 {
+font-size:21px;
+font-family: PT Sans;
+}
+.mac  {
+padding-top: 40px;
+padding-left: 20%;
+width:830;
+height:415;
+}
+.img-evidentiere {
+width:360px;
+height:250px;
+align:center;
+}
+.img-evidentiere1 {
+width:100%;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+valign:middle;
+
+padding-top:15px;
+}
+.img-title  {
+width:80%;
+height:auto;
+margin-top:-2em;
+margin-left:auto;
+margin-right:auto;
+
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+z-index:1;
+}
+.subtitle  {
+font-family:PT Sans;
+padding-top:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+hr{
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.desc-evidentiere  {
+font-family:PT Sans;
+pading-top:10px;
+font-size:21px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}  
+.img-evidentiere2  {
+width:110%;
+height:110%;
+margin-left:auto;
+margin-right:auto;
+
+}
+.head-table  {
+background-color:#C0C0C0;
+font-weight:bold;
+}
+table  {
+font-family:PT Sans;
+font-size:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+width:62%;
+}
+.content-table {
+padding-top:5px;
+padding-bottom:5px;
+
+
+}
+.tablecontent {
+text-align:right;
+padding-left:150px;
+padding-top:5px;
+padding-bottom:5px;
+
+}
+.container2 {
+margin-left:20px;
+}
+.container1 {
+margin-left:40px;
+}
+
+.free-space {
+
+margin-top:100px;
+}
+.size{
+font-size:xx-large;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+ <div class="container">
+ <h1 class="title" align="center">  iPhone 5s </h1> 
+<img class="img-title img-responsive" src="img/iphone5.png" />
+</div>
+
+ <div class="container">
+<h2 class="subtitle size">Description</h2>
+ <p class="desc-evidentiere">  The highly advanced iPhone 5s features the A7 chip with 64-bit architecture, the Touch ID fingerprint sensor, a 8-megapixel iSight camera, a FaceTime HD camera, ultrafast LTE wireless*, iOS 8, and iCloud. Yet it s as thin and light as ever. The iPhone 5s comes in 16GB, 32GB, & 64GB.</p>
+<br> <hr>
+</div>
+
+<br>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-2" ><img src="img/ios.png" class="img-evidentiere1" />
+	</div>
+	
+	<div class="col-md-10">
+	    <h2 align="left" class="size"> iOS 8 </h2>
+		<p class="desc-evidentiere1"> iOS 8 was designed with features that make every experience better. Incredible new features will change how you send messages, edit photos and track your health. And developers now have deeper access to bring some of the amazing new capabilities of iOS 8 to their apps too.</p>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div class="row">
+	<div class="col-md-2">
+		<img src="img/touch.png"  class="img-evidentiere2" />
+	</div>
+	
+	<div class="col-md-10"><h2>Touch ID</h2>
+		<p class="desc-evidentiere1">Touch ID is Apple's biometric fingerprint authentication technology. With it, the Home button can now unlock your iPhone 5s and authorize your purchases on the iTunes Store. A capacitive ring activates the scanner on contact which then takes a high-resolution picture of your fingerprint. </p>
+	</div>
+   </div>
+</div>
+	 <br>
+	<div class="container">
+        <hr>
+	<h2 class="subtitle size"> Technical specifications </h2>
+	<table>
+	 <tr>
+	   <td colspan="2" class="head-table"> Network </td>
+	 </tr>
+	 <tr>
+	    <td class="content-table" >Technology</td>
+		<td class="tablecontent"> GSM / CDMA / HSPA / EVDO / LTE</td>
+         </tr>
+		 
+		
+		 
+		 <tr>
+		   <td colspan="2" class="head-table"> Body</td>
+		 </tr>
+		 
+         <tr>
+		    <td class="content-table"> Dimensions </td>
+			<td class="tablecontent">123.8 x 58.6 x 7.6 mm (4.87 x 2.31 x 0.30 in)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Weight</td>
+			<td class="tablecontent">112 g (3.95 oz)</td>
+		</tr>
+		
+		<tr>
+		   <td class="content-table">SIM</td>
+		   <td class="tablecontent">Nano-SIM</td>
+		</tr>
+		
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Display</td>
+		</tr>
+	
+	    <tr>
+			<td class="content-table">Type</td>
+			<td class="tablecontent">LED-backlit IPS LCD, capacitive touchscreen, 16M colors</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Size</td>
+			<td class="tablecontent">4.0 inches (~60.8% screen-to-body ratio)</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Resolution</td>
+			<td class="tablecontent">640 x 1136 pixels (~326 ppi pixel density) </td>
+		</tr>
+		<tr>
+			<td class="content-table">Multitouchn</td>
+			<td class="tablecontent">Yes </td>
+		</tr>
+		<tr>
+			<td class="content-table">Protection</td>
+			<td class="tablecontent">Corning Gorilla Glass, oleophobic coating </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Platform </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">OS</td>
+			<td class="tablecontent">iOS 7, upgradable to iOS 8.3</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Chipset </td>
+			<td class="tablecontent">Apple A7 </td>
+		</tr>
+		<tr>
+			<td class="content-table">CPU </td>
+			<td class="tablecontent">Dual-core 1.3 GHz Cyclone (ARM v8-based) </td>
+		</tr>
+		<tr>
+			<td class="content-table">GPU </td>
+			<td class="tablecontent">PowerVR G6430 (quad-core graphics) </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Memory </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Card slot </td>
+			<td class="tablecontent">No</td>
+		</tr>
+		<tr>
+			<td class="content-table">Internal </td>
+			<td class="tablecontent">16/32/64 GB, 1 GB RAM DDR3</td>
+		</tr>
+		
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Camera</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Primary </td>
+			<td class="tablecontent">8 MP, 3264 x 2448 pixels, autofocus, dual-LED (dual tone) flash </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Features</td>
+			<td class="tablecontent">1/3'' sensor size, 1.5 µm pixel size, simultaneous HD video and image recording, touch focus, geo-tagging, face/smile detection, HDR (photo/panorama)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Video</td>
+			<td class="tablecontent">1080p@30fps, 720p@120fps</td>
+		</tr>
+		<tr>
+			<td class="content-table">Secondary</td>
+			<td class="tablecontent">1.2 MP, 720p@30fps, face detection, FaceTime over Wi-Fi or Cellular</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Sound</td>
+	    </tr>
+	 
+	    <tr>
+			<td class="content-table">Alert types</td>
+			<td class="tablecontent">Vibration, proprietary ringtones</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Loudspeaker</td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">3.5mm jack</td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Comms</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">WLAN </td>
+			<td class="tablecontent">Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Bluetooth</td>
+			<td class="tablecontent"> v4.0, A2DP </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> GPS </td>
+			<td class="tablecontent">Yes, with A-GPS, GLONASS</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Radio </td>
+			<td class="tablecontent">No</td>
+		</tr>
+		<tr>
+			<td class="content-table"> USB </td>
+			<td class="tablecontent">v2.0, reversible connector</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Features</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Sensors</td>
+			<td class="tablecontent">Accelerometer, gyro, proximity, compass</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Messaging </td>
+			<td class="tablecontent">iMessage, SMS (threaded view), MMS, Email, Push Email</td>
+		</tr>
+		<tr>
+			<td class="content-table">Browser </td>
+			<td class="tablecontent">HTML5 (Safari)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Java </td>
+			<td class="tablecontent">No</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Battery</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"></td>
+			<td class="tablecontent">Non-removable Li-Po 1560 mAh battery (5.92 Wh)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Stand-by</td>
+			<td class="tablecontent">Up to 250 h (2G) / Up to 250 h (3G))</td>
+		</tr>
+		<tr>
+			<td class="content-table">Talk time</td>
+			<td class="tablecontent">Up to 10 h (2G) / Up to 10 h (3G)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Music play</td>
+			<td class="tablecontent">Up to 40 h</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2"> Tests </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Performance </td>
+			<td class="tablecontent">Basemark OS II: 1077 / Basemark X: 14341</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Display </td>
+			<td class="tablecontent">Contrast ratio: 1219:1 (nominal) / 3.565:1 (sunlight)</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> Camera</td>
+			<td class="tablecontent">Photo / Video</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Loudspeaker	</td>
+			<td class="tablecontent">Voice 68dB / Noise 66dB / Ring 69dB</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Audio quality</td>
+			<td class="tablecontent">Noise -93.6dB / Crosstalk -90.3dB</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Battery life</td>
+			<td class="tablecontent">Endurance rating 54h</td>
+		</tr>
+
+	</table>
+        </div>
+	
+	<div class="free-space">
+	
+	</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Apple - Mac </title>
+  <link rel="shortcut icon" href="img/apple2.png" />
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+body{
+
+}
+.navbar{
+z-index:1000;
+}
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.jumbotron{
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+margin-top:-3.2em;
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:460px;
+color:black;
+background-color:#ffffff;
+margin-bottom:3.4em;
+
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+text-shadow: 2px 3px 2px #5F5F5F;
+}
+.col-md-4{
+text-align:center;
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+}
+hr{
+color:black;
+}
+.evidentiere{
+color:#757575;
+font-size:20px;
+}
+.mac  {
+
+
+
+width:830;
+height:415;
+}
+.img-evidentiere {
+width:360px;
+height:250px;
+
+}
+.img-evidentiere1 {
+width:360px;
+height:220px;
+
+}
+.row{
+margin-top:2em;
+}
+.img-responsive{
+margin-left:auto;
+margin-right:auto;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+
+<div class="container color-white">
+  <div class="jumbotron">
+   
+    <h1 class="title" align="center">New MacBook</h1>      
+    <p class="description" align="center"> Much thinner, new processor and autonomy for a day.</p>     
+	<img src="img/newmacbook.jpg" class=" mac img-responsive" />
+         
+   </div>
+<hr>
+</div>
+
+<div class="container">
+
+
+     <div class="row">
+        <div class="col-md-4">
+		  <a href="macbookair.html"><p class="evidentiere"> MacBook Air </p>
+		  <img class="img-evidentiere img-responsive"  src="img/macbookair.jpg"  /></a>
+		</div>
+	    
+		<div class="col-md-4">
+		  <a href="macbookpro.html"><p class="evidentiere"> MacBook Pro </p>
+		  <img class="img-evidentiere1 img-responsive" src="img/macbookpro.jpg" /></a>
+		</div>
+		
+		<div class="col-md-4">
+		 <a href="macpro.html"><p class="evidentiere"> Mac Pro </p>
+		 <img class="img-evidentiere img-responsive" src="img/macpro.jpg"  /></a>
+		</div>
+</div>	
+</body>
+</html>

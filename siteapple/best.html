@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title> Apple- App Of The Year 2014 </title>
+<link rel="shortcut icon" href="img/apple2.png" />
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-
+content/courses/ltp/css/bootstrap.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.jumbotron{
+margin-top:10px;
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:460px;
+color:black;
+background-color:#ffffff;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+font-family:PT Sans;
+font-size:60px;
+text-shadow: 2px 3px 2px #5F5F5F;
+color:#000000;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+postion:relative;
+z-index:1000;
+}
+.col-md-6{
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+padding-left:-20px;
+}
+hr{
+color:black;
+}
+.desc-evidentiere1 {
+font-size:20px;
+font-family: PT Sans;
+}
+.mac  {
+padding-top: 40px;
+padding-left: 20%;
+width:830;
+height:415;
+}
+.img-evidentiere {
+width:360px;
+height:auto;
+align:center;
+}
+.img-evidentiere1 {
+width:170px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+
+padding-top:15px;
+}
+.img-title  {
+width:40%;
+height:auto;
+padding-top:20px;
+margin-left:auto;
+margin-right:auto;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+z-index:1;
+}
+.subtitle  {
+font-family:PT Sans;
+padding-top:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.size{
+font-size:xx-large;
+}
+hr{
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.desc-evidentiere  {
+font-family:PT Sans;
+pading-top:10px;
+font-size:22px;
+
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}  
+.img-evidentiere2  {
+width:auto;
+height:180px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.head-table  {
+background-color:#C0C0C0;
+font-weight:bold;
+}
+table  {
+font-family:PT Sans;
+font-size:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+width:62%;
+}
+.content-table {
+padding-top:5px;
+padding-bottom:5px;
+}
+.tablecontent {
+text-align:right;
+padding-left:150px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.special{
+font-size:20px;
+margin-left:0px;
+font-family:PT Sans;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.free-space {
+
+height:100px;
+}
+a {
+text-decoration:none;color:#ff0000;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+ <div class="container">
+ <h1 class="title" align="center">  1Password </h1> 
+<img class="img-title img-responsive" src="img/ipass.png" />
+</div>
+
+
+ <div class="container">
+<h2 class="subtitle size">Have you ever forgotten a password? Do you reuse passwords?</h3>
+ <p class="desc-evidentiere">1Password creates strong, unique passwords for every site, remembers them all for you, and logs you in with a single tap. 1Password is free. Start using it today!</p>
+<br> <hr>
+</div>
+
+<br>
+
+<div class="container">
+<h2 class="subtitle size">YOUR LIFE, SECURED BY 1PASSWORD</h3>
+ <p class="desc-evidentiere">1Password creates strong, unique passwords for every site, remembers them all for you, and logs you in with a single tap. 1Password is free. Start using it today!
+   <ul>
+     <li class="special"> Store your logins, credit cards, identities, and secure notes
+     <li class="special"> Log in to websites without having to remember any of your passwords
+     <li class="special"> Fill credit cards and identities without typing
+     <li class="special"> Quickly access your most used items using favorites
+     <li class="special"> Powerful search to find what you need fast
+   </ul>
+ </p>
+<br>
+<hr> 
+</div>
+<br>
+
+<br>
+<div class="container">
+<h2 class="subtitle size">STAY SECURE WITH 1PASSWORD</h3>
+ <p class="desc-evidentiere">Everything in your 1Password vault is protected by a Master Password that only you know. Here are just a few of the ways 1Password keeps you safe:
+   <ul>
+     <li class="special"> Encrypts all your data using authenticated AES 256-bit encryption
+     <li class="special"> Auto-lock protects your vault even if your device is lost or stolen
+     <li class="special"> Touch ID allows quick, secure access
+     <li class="special"> Strong Password Generator creates strong, unique passwords for every site
+     <li class="special"> Syncs securely with your other iOS devices, as well as 1Password for Mac, PC, and more
+   </ul>
+ </p>
+<br> 
+</div>
+	 <br>
+	<div class="container">
+        <hr>
+	<h2 class="subtitle"> Technical specifications </h2>
+	<table>
+	 <tr>
+	   <td colspan="2" class="head-table"> Details </td>
+	 </tr>
+	 <tr>
+	    <td class="content-table" >Category</td>
+		<td class="tablecontent"> Productivity</td>
+         </tr>
+	 <tr>
+	    <td class="content-table" >Designed for</td>
+		<td class="tablecontent"> iPhone,iPad and Apple Watch</td>
+         </tr>
+		 
+		<tr>
+		   <td class="content-table">Size</td>
+		   <td class="tablecontent">63 MB</td>
+		 </tr>
+		 
+		 <tr>
+		   <td class="content-table">Version</td>
+		   <td class="tablecontent">5.4.1</td>
+		 </tr>
+		 <tr>
+		   <td class="content-table">Compatibility</td>
+		   <td class="tablecontent">Requires iOS 8.0 or later.</td>
+		 </tr>
+	</table>
+        </div>
+	
+	<div class="free-space">
+</body>
+</html>

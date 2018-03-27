@@ -1,0 +1,545 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Apple - iPhone 6 Plus </title>
+<link rel="shortcut icon" href="img/apple2.png" />
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-
+
+content/courses/ltp/css/bootstrap.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.jumbotron{
+margin-top:10px;
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:460px;
+color:black;
+background-color:#ffffff;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+font-family:PT Sans;
+font-size:60px;
+text-shadow: 2px 3px 2px #5F5F5F;
+color:#000000;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+postion:relative;
+z-index:1000;
+}
+.col-md-6{
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+padding-left:-20px;
+}
+hr{
+color:black;
+}
+.desc-evidentiere1 {
+font-size:21px;
+font-family: PT Sans;
+}
+.mac  {
+padding-top: 40px;
+padding-left: 20%;
+width:830;
+height:415;
+}
+.img-evidentiere {
+width:360px;
+height:250px;
+align:center;
+}
+.img-evidentiere1 {
+width:100%;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+valign:middle;
+
+padding-top:15px;
+}
+.img-title  {
+width:80%;
+height:auto;
+margin-top:-2em;
+margin-left:auto;
+margin-right:auto;
+
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+z-index:1;
+}
+.subtitle  {
+font-family:PT Sans;
+padding-top:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+hr{
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.desc-evidentiere  {
+font-family:PT Sans;
+pading-top:10px;
+font-size:21px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}  
+.img-evidentiere2  {
+width:110px;
+height:150px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.head-table  {
+background-color:#C0C0C0;
+font-weight:bold;
+}
+table  {
+font-family:PT Sans;
+font-size:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+width:62%;
+}
+.content-table {
+padding-top:5px;
+padding-bottom:5px;
+
+
+}
+.tablecontent {
+text-align:right;
+padding-left:150px;
+padding-top:5px;
+padding-bottom:5px;
+
+}
+.container2 {
+margin-left:20px;
+}
+.container1 {
+margin-left:40px;
+}
+
+.free-space {
+
+margin-top:100px;
+}
+.size{
+font-size:xx-large;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+ <div class="container">
+ <h1 class="title" align="center">  iPhone 6 Plus </h1> 
+<img class="img-title img-responsive" src="img/iphone6pls.jpg" />
+</div>
+
+ <div class="container">
+<h2 class="subtitle size">Description</h2>
+ <p class="desc-evidentiere">  iPhone 6 Plus isn't just bigger - it's better in every way. A 5.5-inch Retina HD display. An A8 chip with 64-bit desktop-class architecture. A new 8MP iSight camera with Focus Pixels and optical image stabilization. The Touch ID fingerprint identity sensor. Faster LTE and Wi-Fi. Longer battery life. And iOS 8 and iCloud. All in a 7.1mm thin seamless design.</p>
+<br> <hr>
+</div>
+
+<br>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-2" >
+		<img src="img/stabilization.png" class="img-evidentiere1" />
+	</div>
+	
+	<div class="col-md-10">
+	    <h2 align="left" class="size"> Optical Image Stabilization </h2>
+		<p class="desc-evidentiere1"> Optical Image Stabilization (OIS) technology helps in stabilizing the image by taking photos in quick successionand combining them to minimize motion blur. OIS stabilizes an still image and tries to avoid blur; with video recording, it removes shaking effects, thus affecting the overall camera quality.</p>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div class="row">
+	<div class="col-md-2">
+		<img src="img/battery.jpeg"  class="img-evidentiere1" />
+	</div>
+	
+	<div class="col-md-10"><h2>Battery Life</h2>
+		<p class="desc-evidentiere1">The 2,915mAh battery packs enough juice to let the iPhone 6 Plus last two full days of reasonable use with the screen set to 50% brightness. Whack the brightness up though and that big, bright 5.5-inch screen will start sucking up the juice.</p>
+	</div>
+   </div>
+</div>
+	 <br>
+	<div class="container">
+        <hr>
+	<h2 class="subtitle size"> Technical specifications </h2>
+	<table>
+	 <tr>
+	   <td colspan="2" class="head-table"> Network </td>
+	 </tr>
+	 <tr>
+	    <td class="content-table" >Technology</td>
+		<td class="tablecontent"> GSM / CDMA / HSPA / EVDO / LTE</td>
+         </tr>
+		 
+		
+		 
+		 <tr>
+		   <td colspan="2" class="head-table"> Body</td>
+		 </tr>
+		 
+         <tr>
+		    <td class="content-table"> Dimensions </td>
+			<td class="tablecontent">158.1 x 77.8 x 7.1 mm (6.22 x 3.06 x 0.28 in)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Weight</td>
+			<td class="tablecontent">172 g (6.07 oz)</td>
+		</tr>
+		
+		<tr>
+		   <td class="content-table">SIM</td>
+		   <td class="tablecontent">Nano-SIM</td>
+		</tr>
+		
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Display</td>
+		</tr>
+	
+	    <tr>
+			<td class="content-table">Type</td>
+			<td class="tablecontent">LED-backlit IPS LCD, capacitive touchscreen, 16M colors</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Size</td>
+			<td class="tablecontent"> 5.5 inches (~67.8% screen-to-body ratio) </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Resolution</td>
+			<td class="tablecontent">1080 x 1920 pixels (~401 ppi pixel density) </td>
+		</tr>
+		<tr>
+			<td class="content-table">Multitouchn</td>
+			<td class="tablecontent">Yes </td>
+		</tr>
+		<tr>
+			<td class="content-table">Protection</td>
+			<td class="tablecontent">Ion-strengthened glass, oleophobic coating </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Platform </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">OS</td>
+			<td class="tablecontent">iOS 8, upgradable to iOS 8.3</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Chipset </td>
+			<td class="tablecontent">Apple A8 </td>
+		</tr>
+		<tr>
+			<td class="content-table">CPU </td>
+			<td class="tablecontent">Dual-core 1.4 GHz Cyclone (ARM v8-based) </td>
+		</tr>
+		<tr>
+			<td class="content-table">GPU </td>
+			<td class="tablecontent">PowerVR GX6450 (quad-core graphics) </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Memory </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Card slot </td>
+			<td class="tablecontent">No</td>
+		</tr>
+		<tr>
+			<td class="content-table">Internal </td>
+			<td class="tablecontent">16/64/128 GB, 1 GB RAM</td>
+		</tr>
+		
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Camera</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Primary </td>
+			<td class="tablecontent">8 MP, 3264 x 2448 pixels, optical image stabilization, phase detection autofocus, dual-LED (dual tone) flash </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Features</td>
+			<td class="tablecontent">1/3'' sensor size, 1.5µm pixel size, geo-tagging, simultaneous HD video and image recording, touch focus, face/smile detection, HDR (photo/panorama)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Video</td>
+			<td class="tablecontent">1080p@60fps, 720p@240fps, optical stabilization</td>
+		</tr>
+		<tr>
+			<td class="content-table">Secondary</td>
+			<td class="tablecontent">1.2 MP, 720p@30fps, face detection, HDR, FaceTime over Wi-Fi or Cellular</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Sound</td>
+	    </tr>
+	 
+	    <tr>
+			<td class="content-table">Alert types</td>
+			<td class="tablecontent">Vibration, proprietary ringtones</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Loudspeaker</td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">3.5mm jack</td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Comms</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">WLAN </td>
+			<td class="tablecontent">Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Bluetooth</td>
+			<td class="tablecontent"> v4.0, A2DP, LE </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> GPS </td>
+			<td class="tablecontent">Yes, with A-GPS, GLONASS</td>
+		</tr>
+		<tr>
+			<td class="content-table"> NFC </td>
+			<td class="tablecontent">Yes (Apple Pay only)</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Radio </td>
+			<td class="tablecontent">No</td>
+		</tr>
+		<tr>
+			<td class="content-table"> USB </td>
+			<td class="tablecontent">v2.0, reversible connector</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Features</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Sensors</td>
+			<td class="tablecontent">Accelerometer, gyro, proximity, compass, barometer</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Messaging </td>
+			<td class="tablecontent">iMessage, SMS (threaded view), MMS, Email, Push Email</td>
+		</tr>
+		<tr>
+			<td class="content-table">Browser </td>
+			<td class="tablecontent">HTML5 (Safari)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Java </td>
+			<td class="tablecontent">No</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Battery</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"></td>
+			<td class="tablecontent">Non-removable Li-Po 2915 mAh battery (11.1 Wh)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Stand-by</td>
+			<td class="tablecontent">Up to 384 h (3G)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Talk time</td>
+			<td class="tablecontent">Up to 24 h (3G)</td>
+		</tr>
+		<tr>
+			<td class="content-table">Music play</td>
+			<td class="tablecontent">Up to 80 h</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2"> Tests </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Performance </td>
+			<td class="tablecontent">Basemark OS II: 1222</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Display </td>
+			<td class="tablecontent">Contrast ratio: 1361 (nominal), 3.023 (sunlight)</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> Camera</td>
+			<td class="tablecontent">Photo / Video</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Loudspeaker	</td>
+			<td class="tablecontent">Voice 67dB / Noise 65dB / Ring 66dB</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Audio quality</td>
+			<td class="tablecontent">Noise -94dB / Crosstalk -72dB</td>
+		</tr>
+		<tr>
+			<td class="content-table"> Battery life</td>
+			<td class="tablecontent">Endurance rating 79h</td>
+		</tr>
+
+	</table>
+        </div>
+	
+	<div class="free-space">
+	
+	</div>
+</body>
+</html>

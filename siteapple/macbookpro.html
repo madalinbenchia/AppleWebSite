@@ -1,0 +1,503 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Apple - MacBookPro </title>
+<link rel="shortcut icon" href="img/apple2.png" />
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-
+
+content/courses/ltp/css/bootstrap.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.jumbotron{
+margin-top:10px;
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:460px;
+color:black;
+background-color:#ffffff;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+font-family:PT Sans;
+font-size:60px;
+text-shadow: 2px 3px 2px #5F5F5F;
+color:#000000;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.col-md-6{
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+padding-left:-20px;
+}
+hr{
+color:black;
+}
+.desc-evidentiere1 {
+font-size:21px;
+font-family: PT Sans;
+}
+.mac  {
+padding-top: 40px;
+padding-left: 20%;
+width:830;
+height:415;
+}
+.img-evidentiere {
+width:360px;
+height:250px;
+align:center;
+}
+.img-evidentiere1 {
+width:140px;
+height:140px;
+margin-left:auto;
+margin-right:auto;
+
+padding-top:15px;
+}
+.img-title  {
+width:100%;
+height:auto;
+padding-top:20px;
+margin-left:auto;
+margin-right:auto;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.subtitle  {
+font-family:PT Sans;
+padding-top:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+
+.desc-evidentiere  {
+font-family:PT Sans;
+pading-top:10px;
+font-size:21px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}  
+.img-evidentiere2  {
+width:110px;
+height:150px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.head-table  {
+background-color:#C0C0C0;
+font-weight:bold;
+}
+table  {
+font-family:PT Sans;
+font-size:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.content-table {
+padding-top:5px;
+padding-bottom:5px;
+}
+.tablecontent {
+text-align:right;
+padding-left:150px;
+padding-top:5px;
+padding-bottom:5px;
+}
+.container2 {
+margin-left:20px;
+}
+.container1 {
+margin-left:40px;
+}
+.coloane {
+width=20%;
+}
+hr{
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.free-space {
+
+margin-top:100px;
+}
+.size{
+font-size:xx-large;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+ <div class="container">
+ <h1 class="title" align="center">  MacBook Pro 15 Retina </h1> 
+<img class="img-title img-responsive" src="img/macbook-pro.jpg" />
+</div>
+
+ <div class="container">
+<h2 class="subtitle size">Description</h2>
+ <p class="desc-evidentiere"> MacBook Pro has retina display, flash storage and quad-core processor in a thin and light model.
+                                   Measuring only 1.8 cm thick and weighing only 2.02 kg, this completely redesigned MacBook Pro sets a new standard in terms of performance and portability for professional users.</p>
+<br> <hr>
+</div>
+
+<br>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-2" >
+		<img src="img/retina.jpg" class="img-evidentiere1" />
+	</div>
+	
+	<div class="col-md-10">
+	    <h2 align="left" class="size"> Retina display</h2>
+		<p class="desc-evidentiere1"> The 15-inch model has over 5 million pixels. So you can retouch your photos or edit a home movie in HD and experience an astounding level of clarity.Text is razor sharp, too,so even everyday things like browsing the web and revising a document are better than ever.</p>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div class="row">
+	<div class="col-md-2">
+		<img src="img/intel.png"  class="img-evidentiere2" />
+	</div>
+	
+	<div class="col-md-10">
+		<h2 align="left" class="size">Intel Core I7</h2>
+		<p class="desc-evidentiere1">Retina display MacBook Pro includes the latest Intel Core i7 processors with four cores at 2.5 GHz frequencies with Turbo Boost speeds up to 3.7 GHz, NVIDIA GeForce GT 750M dedicated graphics, 16 GB of fast memory to 1600 MHz and flash storage.</p>
+	</div>
+   </div>
+</div>
+	 <br>
+	<div class="container">
+        <hr>
+	<h2 class="subtitle size"> Technical specifications </h2>
+	<table>
+	 <tr>
+	   <td colspan="2" class="head-table"> Display </td>
+	 </tr>
+	 <tr>
+	    <td class="content-table" >Diagonal</td>
+		<td class="tablecontent"> 15.4 inch</td>
+         </tr>
+		 
+		<tr>
+		   <td class="content-table">Resolution</td>
+		   <td class="tablecontent">2880 x 1800 pixeli</td>
+		 </tr>
+		 
+		 <tr>
+		    <td class="content-table">Screen technology</td>
+			<td class="tablecontent">IPS, Retina display </td>
+		 </tr>
+		 
+		 <tr>
+		   <td colspan="2" class="head-table"> Processor</td>
+		 </tr>
+		 
+         <tr>
+		    <td class="content-table"> Producer </td>
+			<td class="tablecontent">Intel®</td>
+		</tr>
+		<tr>
+			<td class="content-table">Family</td>
+			<td class="tablecontent">Intel® Core ™ i7 fourth generation</td>
+		</tr>
+		
+		<tr>
+		   <td class="content-table">Number of cores</td>
+		   <td class="tablecontent">4</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Frequent</td>
+			<td class="tablecontent">2,5 GHz</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Integrated Graphics Processor</td>
+			<td class="tablecontent">Iris Pro </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Memory</td>
+		</tr>
+	
+	    <tr>
+			<td class="content-table">Capacity</td>
+			<td class="tablecontent"> 16 GB </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Memory Type</td>
+			<td class="tablecontent"> DDR3 </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Frequent</td>
+			<td class="tablecontent">1600 MHz </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Storage </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Solid State Disk</td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">SSD capacity </td>
+			<td class="tablecontent">512 GB </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Video card </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Chipset producer </td>
+			<td class="tablecontent">NVidia</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Series</td>
+			<td class="tablecontent">GeForce</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Model</td>
+			<td class="tablecontent">GT 750M</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Dedicated memory</td>
+			<td class="tablecontent">2048 MB</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Suport DirectX 11 </td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Conectivity</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Wireless </td>
+			<td class="tablecontent">802.11 ac </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Bluetooth</td>
+			<td class="tablecontent">4.0</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Ports</td>
+	    </tr>
+	 
+	    <tr>
+			<td class="content-table">USB 3.0</td>
+			<td class="tablecontent">2</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">HDMI</td>
+			<td class="tablecontent">1</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Thunderbolt</td>
+			<td class="tablecontent">2</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Battery</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Type </td>
+			<td class="tablecontent">Li-Polymer</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Maximum Autonomy</td>
+			<td class="tablecontent"> 8h </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> Power </td>
+			<td class="tablecontent">95 Whr</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Physical size</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Size</td>
+			<td class="tablecontent">358.9 x 247.1 x 18 mm</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Weight </td>
+			<td class="tablecontent">2.02 kg</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Software</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Operating system</td>
+			<td class="tablecontent">Mac OS X Mavericks</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2"> Multimedia </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Webcam </td>
+			<td class="tablecontent">HD</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Supported cards </td>
+			<td class="tablecontent">SDXC</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> Other</td>
+			<td class="tablecontent">FaceTime HD camera</td>
+		</tr>
+
+	</table>
+        </div>
+	
+	<div class="free-space">
+	
+	</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <title>Apple</title>
+  <link rel="shortcut icon" href="apple2.png" />
+<style>
+body{
+
+}
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.jumbotron{
+margin-top:10px;
+background-image:url("iphone.jpg");
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:460px;
+color:black;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+text-shadow: 2px 3px 2px #5F5F5F;
+
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.jumbotron p{
+margin-bottom:0px;
+}
+.col-md-4{
+text-align:center;
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+}
+hr{
+color:black;
+}
+.evidentiere{
+color:#757575;
+font-size:20px;
+
+}
+.subtitle{
+margin:0 0 0px;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+
+<div class="container color-white">
+  <div class="jumbotron">
+   <div class="all">
+    <h1 class="right title">iPhone 6</h1>      
+    <p class="right description">A larger screen, a thinner profile, and ultrafast wireless.</p>       
+    <p class="right description">Now iPhone is even bigger on productivity.</p></div>       
+   </div>
+</div>
+
+<div class="container">
+
+<div class="row">
+<hr>
+  <div class="col-md-4">
+    <p class="subtitle">iPad Air 2</p>
+    <p class="evidentiere">Changes everything</p>
+    <img class="img-responsive" src="img/ipad.jpg" />
+  </div>
+  <div class="col-md-4">
+    <p class="subtitle">The new MacBook</p>
+    <p class="evidentiere">Now available</p>
+    <img class="img-responsive" src="img/mac.jpg" />
+  </div>
+  <div class="col-md-4">
+    <p class="subtitle">iWatch</p>
+    <p class="evidentiere">The Watch is here</p>
+    <img class="img-responsive" src="img/watch.jpg" />
+  </div>
+</div>
+
+</body>
+
+</html>

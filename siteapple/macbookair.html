@@ -1,0 +1,511 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Apple - MacBookAir </title>
+<link rel="shortcut icon" href="img/apple2.png" />
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-
+
+content/courses/ltp/css/bootstrap.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.jumbotron{
+margin-top:10px;
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:460px;
+color:black;
+background-color:#ffffff;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+font-family:PT Sans;
+font-size:60px;
+text-shadow: 2px 3px 2px #5F5F5F;
+color:#000000;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+postion:relative;
+z-index:1000;
+}
+.col-md-6{
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+padding-left:-20px;
+}
+hr{
+color:black;
+}
+.desc-evidentiere1 {
+font-size:20px;
+font-family: PT Sans;
+}
+.mac  {
+padding-top: 40px;
+padding-left: 20%;
+width:830;
+height:415;
+}
+.img-evidentiere {
+width:360px;
+height:250px;
+align:center;
+}
+.img-evidentiere1 {
+width:170px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+
+padding-top:15px;
+}
+.img-title  {
+width:100%;
+height:auto;
+padding-top:20px;
+margin-left:auto;
+margin-right:auto;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+z-index:1;
+}
+.subtitle  {
+font-family:PT Sans;
+padding-top:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+hr{
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.desc-evidentiere  {
+font-family:PT Sans;
+pading-top:10px;
+font-size:22px;
+padding-right:300px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}  
+.img-evidentiere2  {
+width:200px;
+height:120px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.head-table  {
+background-color:#C0C0C0;
+font-weight:bold;
+}
+table  {
+font-family:PT Sans;
+font-size:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+width:62%;
+}
+.content-table {
+padding-top:5px;
+padding-bottom:5px;
+}
+.tablecontent {
+text-align:right;
+padding-left:150px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+
+.free-space {
+
+height:100px;
+}
+a {
+text-decoration:none;color:#ff0000;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+ 
+  <div class="container">
+ <h1 class="title" align="center">  MacBook Air </h1> 
+<img class=" img-title" src="img/macbook-air.jpg" />
+<h2 class="subtitle">Description</h2>
+<p class="desc-evidentiere">The new MacBook Air is thin, light and durable enough to take it wherever you go - and strong enough to do anything when you got there.</p>
+<br> <hr>
+</div>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-3" >
+		<img src="img/flashh.jpg" class="img-evidentiere1" />
+	</div>
+	
+	<div class="col-md-9">
+	    <h2 align="left"> Flash memory </h2>
+		<p class="desc-evidentiere1"> Flash storage in MacBook Air is up to 17x faster than a 5400-rpm notebook hard drive. So everything you do is snappy and responsive. MacBook Air even wakes up fast, thanks to flash storage and fifth-generation Intel Core processors.</p>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+
+<div class="row">
+	<div class="col-md-3">
+		<img src="img/baterie.jpg"  class="img-evidentiere1" />
+	</div>
+	
+	<div class="col-md-9">
+		<h2 align="left">Battery long haul. Instant ignition. Even after a month break.</h2>
+		<p class="desc-evidentiere1">Because flash storage saves space and leaves room for a bigger battery, you have more time for the things you care about; such as browsing the web, editing photos and watching videos. Get up to 12 hours of battery life on a single charge for 13-inch model. Send the MacBook Air to sleep and go into standby mode to conserve battery life.</p>
+	</div>
+   </div>
+
+	 <br> <hr>
+	 <div class="row">
+	<div class="col-md-3">
+		<img src="img/camera.jpg"  class="img-evidentiere2" />
+	</div>
+	
+	<div class="col-md-9">
+		<h2 align="left">720p HD FaceTime camera.</h2>
+		<p class="desc-evidentiere1">Friends and family will see you better HD camera FaceTime 720p. Widescreen format allows everyone to fit into the framework without crowding around the screen.</p>
+	</div>
+   </div>
+</div>
+	 <br>
+ </div>
+  
+  <br>
+	<div class="container">
+        <hr>
+	<h2 class="subtitle"> Technical specifications </h2>
+	<table>
+	 <tr>
+	   <td colspan="2" class="head-table"> Display </td>
+	 </tr>
+	 <tr>
+	    <td class="content-table" >Diagonal</td>
+		<td class="tablecontent"> 13.3 inch</td>
+         </tr>
+		 
+		<tr>
+		   <td class="content-table">Resolution</td>
+		   <td class="tablecontent">1440 x 900 pixels</td>
+		 </tr>
+		 
+		 <tr>
+		    <td class="content-table">Screen technology</td>
+			<td class="tablecontent">IPS </td>
+		 </tr>
+		 
+		 <tr>
+		   <td colspan="2" class="head-table"> Processor</td>
+		 </tr>
+		 
+         <tr>
+		    <td class="content-table"> Producer </td>
+			<td class="tablecontent">Intel®</td>
+		</tr>
+		<tr>
+			<td class="content-table">Family</td>
+			<td class="tablecontent">Intel® Core ™ i5 third generation</td>
+		</tr>
+		
+		<tr>
+		   <td class="content-table">Number of cores</td>
+		   <td class="tablecontent">2</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Frequent</td>
+			<td class="tablecontent">1,8 GHz</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Integrated Graphics Processor</td>
+			<td class="tablecontent">HD 4000 </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Memory</td>
+		</tr>
+	
+	    <tr>
+			<td class="content-table">Capacity</td>
+			<td class="tablecontent"> 4 GB </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Memory Type</td>
+			<td class="tablecontent"> DDR3 </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Frequent</td>
+			<td class="tablecontent">1600 MHz </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Storage </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Solid State Disk</td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">SSD capacity </td>
+			<td class="tablecontent">256 GB </td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Video card </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Chipset producer </td>
+			<td class="tablecontent">Intel</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Series</td>
+			<td class="tablecontent">GMA</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Model</td>
+			<td class="tablecontent">HD 3000</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Dedicated memory</td>
+			<td class="tablecontent">2048 MB</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Suport DirectX 11 </td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Conectivity</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Wireless </td>
+			<td class="tablecontent">802.11 ac </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Bluetooth</td>
+			<td class="tablecontent">4.0</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Ports</td>
+	    </tr>
+	 
+	    <tr>
+			<td class="content-table">USB 3.0</td>
+			<td class="tablecontent">2</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">HDMI</td>
+			<td class="tablecontent">1</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Thunderbolt</td>
+			<td class="tablecontent">2</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Battery</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Type </td>
+			<td class="tablecontent">Li-Polymer</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Maximum Autonomy</td>
+			<td class="tablecontent"> 8h </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> Power </td>
+			<td class="tablecontent">95 Whr</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Physical size</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Size</td>
+			<td class="tablecontent">358.9 x 247.1 x 18 mm</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Weight </td>
+			<td class="tablecontent">2.02 kg</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Software</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Operating system</td>
+			<td class="tablecontent">Mac OS X Mavericks</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2"> Multimedia </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Webcam </td>
+			<td class="tablecontent">HD</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Supported cards </td>
+			<td class="tablecontent">SDXC</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table"> Other</td>
+			<td class="tablecontent">FaceTime HD camera</td>
+		</tr>
+
+	</table>
+        </div>
+	
+	<div class="free-space">
+	
+	</div>
+ </body>
+ </html>

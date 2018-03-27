@@ -1,0 +1,540 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Apple - Mac Pro </title>
+<link rel="shortcut icon" href="img/apple2.png" />
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
+  
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<link href="http://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<style>
+.navbar{
+z-index:1000;
+}
+.apple{
+
+width:40px;
+}
+li{
+margin-left:60px;
+}
+.apple{
+margin-right:10px;
+
+}
+.apple:hover{
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+.navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+.text{
+font-size:large;
+}
+.text:hover{
+background-color:#ebebeb;
+}
+.jumbotron{
+margin-top:-3.2em;
+background-repeat:no-repeat;
+font-family:PT Sans;
+height:260px;
+color:black;
+background-color:#ffffff;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.row {
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.color-white{
+background-color:white;
+}
+.right{
+text-align:right;
+}
+.description{
+padding:-30px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+}
+.title{
+padding-top:80px;
+padding-bottom:20px;
+font-family:PT Sans;
+font-size:60px;
+text-shadow: 2px 3px 2px #5F5F5F;
+color:#000000;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+postion:relative;
+z-index:1000;
+}
+.col-md-6{
+font-family:PT Sans;
+font-size:xx-large;
+color:#464646;
+margin-bottom:-10px;
+padding-left:-20px;
+}
+hr{
+color:black;
+}
+.desc-evidentiere1 {
+font-size:20px;
+font-family: PT Sans;
+}
+.mac  {
+padding-top: 40px;
+padding-left: 20%;
+width:830;
+height:415;
+}
+.img-evidentiere {
+width:360px;
+height:250px;
+align:center;
+}
+.img-evidentiere1 {
+width:170px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+
+padding-top:15px;
+}
+.img-title  {
+width:100%;
+height:auto;
+padding-top:20px;
+margin-left:auto;
+margin-right:auto;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 0.5s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 0.5s;
+-webkit-animation-fill-mode: forwards;
+z-index:1;
+}
+.subtitle  {
+font-family:PT Sans;
+padding-top:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+hr{
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}
+.desc-evidentiere  {
+font-family:PT Sans;
+pading-top:10px;
+font-size:22px;
+
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+}  
+.img-evidentiere2  {
+width:auto;
+height:120px;
+margin-top:2em;
+margin-left:auto;
+margin-right:auto;
+
+}
+.head-table  {
+background-color:#C0C0C0;
+font-weight:bold;
+}
+table  {
+font-family:PT Sans;
+font-size:20px;
+opacity:0;
+animation: fadein 2s;
+animation-delay: 1s;
+-webkit-animation: fadein 2s;
+-webkit-animation-delay: 1s;
+-webkit-animation-fill-mode: forwards;
+width:62%;
+}
+.content-table {
+padding-top:5px;
+padding-bottom:5px;
+}
+.tablecontent {
+text-align:right;
+padding-left:150px;
+padding-top:5px;
+padding-bottom:5px;
+}
+.free-space {
+
+height:100px;
+}
+.prezentation  {
+align:center;
+}
+a {
+text-decoration:none;color:#ff0000;
+}
+
+.iphone {
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  animation: fadein 2s;
+  animation-delay: 0.5s;
+  -webkit-animation: fadein 2s;
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar  navbar-default">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><div class="logo"><a href="index.html"><img src="img/apple.png" class="apple img-responsive" /></a></div></li>
+        <li class="text"><a href="mac.html">Mac</a></li>
+        <li class="text"><a href="iphone.html">iPhone</a></li>
+        <li class="text"><a href="ipad.html">iPad</a></li>
+        <li class="text"><a href="iwatch.html">Watch</a></li>
+        <li class="text"><a href="itunes.html">iTunes</a></li>
+	<li class="text"><a href="formjava.html">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+  </div>
+</nav>
+ 
+  <div class="container color-white">
+  <div class="jumbotron">
+   
+    <h1 class="title" align="center">Mac Pro</h1>      
+    <p class="description" align="center"> For a big step forward , sometimes you need to change direction . </p>     
+	</div><img src="img/mac-pro.jpg" class="iphone img-responsive" />
+         
+   
+<hr>
+</div>
+
+<div class="container">
+<h2 class="subtitle">Description</h2>
+<p class="desc-evidentiere">Designed to blend with dual GPU graphics station , PCIe flash storage , Thunderbolt2 high-performance Xeon processors last generation ultrafast memory and support for 4K video format , the new Mac Pro offers top performance from all points of view .</p>
+<br> <hr>
+</div>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-2" >
+		<img src="img/macpro1.jpg" class="img-evidentiere2"  />
+	</div>
+	
+	<div class="col-md-10">
+	    <h2 align="left" class="size"> New Ideas </h2>
+		<p class="desc-evidentiere"> When we started working on the new Mac Pro , we considered each element that defines a professional computer - graphics , storage, expansion , processing power and memory. We set the objective of designing each of these elements in the most visionary and most advanced way . And when we finished , the result was something completely new . </p>
+    </div>
+</div>
+<br>
+<hr>
+<br>
+</div>
+
+
+<div class="container">
+	<h2 class="subtitle">Processor</h2>
+	<p class="desc-evidentiere" style="padding-top:10px;"> The new Mac Pro is pure force , starting with Intel Xeon processor E5 new generation , available with 4, 6 , 8 or 12 cores on a single pill . And , with an L3 cache of up to 30 MB , a band of 40 GB / s PCI Express Gen 3 and the floating -point instructions 256 bits, never shalt not lack of speed .</p>
+</div>
+
+  <br>
+  
+ <div class="container">
+
+  <div class="row">
+  
+    <div class="col-md-6">
+      <img alt src="img/macpro3.jpg" style="width:600px; height:auto;" />
+    </div>
+
+    <div class="col-md-6">
+      <img alt src="img/macpro2.jpg" style="margin-left:10px;width:537px; height:auto;" />
+    </div>
+
+
+  </div>
+
+ 
+	<h2 class="subtitle">One innovative fan</h2>
+	<p class="desc-evidentiere" style="padding-top:10px;"> To cool a device so powerful , it took an incredibly innovative ventilation system . Instead of adding additional fans , we designed a unique fan , biggest , which draw air upward through the inlet at the bottom . As the air passes vertically through the center of the device , absorbs heat and leads to the top. It is simple and elegant - and amazingly quiet . To achieve this , we had to consider every detail : the number of blades , size, and shape up . Minimizing air resistance through the system , we were able to design a rotor blade fan with curved back , which revolves with fewer revolutions per minute , more effectively draw air through the rotation and creates much less noise.</p>
+</div>
+
+
+	<div class="container">
+        <hr>
+	<h2 class="subtitle"> Technical specifications </h2>
+	<table>
+		 <tr>
+		   <td colspan="2" class="head-table"> Processor</td>
+		 </tr>
+		 
+         <tr>
+		    <td class="content-table"> Producer </td>
+			<td class="tablecontent">Intel®</td>
+		</tr>
+		<tr>
+			<td class="content-table">Processor</td>
+			<td class="tablecontent">Intel® Xeon® Processor E5 (10M Cache, 3.50 GHz)</td>
+		</tr>
+		
+		<tr>
+		   <td class="content-table">Socket</td>
+		   <td class="tablecontent">2011</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Core</td>
+			<td class="tablecontent">Ivi Bridge</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Number of cores</td>
+			<td class="tablecontent">6 </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Frequency</td>
+			<td class="tablecontent">3.5 GHz</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Max TDP</td>
+			<td class="tablecontent">130 W</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Memory</td>
+		</tr>
+	
+	    <tr>
+			<td class="content-table">Type</td>
+			<td class="tablecontent">ECC</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Capacity</td>
+			<td class="tablecontent">16 GB</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Frequency</td>
+			<td class="tablecontent">1866 MHz</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Max memory</td>
+			<td class="tablecontent">64 GB</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Storage </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Solid State Disk</td>
+			<td class="tablecontent">Yes</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">SSD capacity </td>
+			<td class="tablecontent">256 GB </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Interface</td>
+			<td class="tablecontent">SATA</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Video card </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Chipset producer </td>
+			<td class="tablecontent">AMD</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Family</td>
+			<td class="tablecontent">FirePro</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Model</td>
+			<td class="tablecontent">D 500</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Interface</td>
+			<td class="tablecontent">PCI Express x16 3.0</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">OpenGL </td>
+			<td class="tablecontent">4.1</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Shader Model</td>
+			<td class="tablecontent">5.0</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Directx Support</td>
+			<td class="tablecontent">11.2</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Stream Cores</td>
+			<td class="tablecontent">1280</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Type of memory</td>
+			<td class="tablecontent">GDDR5</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">BUS memory</td>
+			<td class="tablecontent">256-bit</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Conectivity</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Wireless </td>
+			<td class="tablecontent">802.11 ac </td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Bluetooth</td>
+			<td class="tablecontent">4.0</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">LAN</td>
+			<td class="tablecontent">10/100/1000 Mbps</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Black Panel</td>
+	    </tr>
+	 
+	    <tr>
+			<td class="content-table">USB 3.0</td>
+			<td class="tablecontent">4</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">HDMI</td>
+			<td class="tablecontent">1</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Thunderbolt</td>
+			<td class="tablecontent">2</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="head-table" colspan="2">Physical size</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Size</td>
+			<td class="tablecontent">25.14 x 16.76 cm</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Weight </td>
+			<td class="tablecontent">4.98 kg</td>
+		</tr>
+		
+		<tr>
+			<td class="head-table" colspan="2">Software</td>
+		</tr>
+		
+		<tr>
+			<td class="content-table">Operating system</td>
+			<td class="tablecontent">Mac OS X Mavericks</td>
+		</tr>
+
+	</table>
+        </div>
+	
+	<div class="free-space">
+	
+	</div>
+ </body>
+ </html>
